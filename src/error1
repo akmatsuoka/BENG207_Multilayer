@@ -1,0 +1,508 @@
+[5/9] Compiling C object src/beng207_2026.p/main.c.o
+FAILED: [code=1] src/beng207_2026.p/main.c.o 
+ccache cc -Isrc/beng207_2026.p -Isrc -I../../../../../BENG207_2026/src -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/glycin-2 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/graphene-1.0 -I/usr/lib/x86_64-linux-gnu/graphene-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -I/usr/include/libadwaita-1 -I/usr/include/appstream -I/home/shh/Projects/.gnome-builder/projects/BENG207_2026/builds/org.gnome.Example.json-flatpak-org.gnome.Platform-master-x86_64-main -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=gnu11 -O0 -g -Wcast-align -Wdeclaration-after-statement -Werror=address -Werror=array-bounds -Werror=empty-body -Werror=implicit -Werror=implicit-function-declaration -Werror=incompatible-pointer-types -Werror=init-self -Werror=int-conversion -Werror=int-to-pointer-cast -Werror=main -Werror=misleading-indentation -Werror=missing-braces -Werror=missing-include-dirs -Werror=nonnull -Werror=overflow -Werror=pointer-arith -Werror=pointer-to-int-cast -Werror=redundant-decls -Werror=return-type -Werror=sequence-point -Werror=shadow -Werror=strict-prototypes -Werror=trigraphs -Werror=undef -Werror=write-strings -Wformat-nonliteral -Wignored-qualifiers -Wimplicit-function-declaration -Wlogical-op -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnested-externs -Wno-cast-function-type -Wno-dangling-pointer -Wno-missing-field-initializers -Wno-sign-compare -Wno-unused-parameter -Wold-style-definition -Wpointer-arith -Wredundant-decls -Wstrict-prototypes -Wswitch-default -Wswitch-enum -Wundef -Wuninitialized -Wunused -fno-strict-aliasing -Werror=format-security -Werror=format=2 -fstack-protector-strong -mfpmath=sse -msse -msse2 -pthread -mfpmath=sse -msse -msse2 -MD -MQ src/beng207_2026.p/main.c.o -MF src/beng207_2026.p/main.c.o.d -o src/beng207_2026.p/main.c.o -c ../../../../../BENG207_2026/src/main.c
+In file included from /usr/include/stdio.h:34,
+                 from ../../../../../BENG207_2026/src/main.c:41:
+/usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include/stddef.h:229:1: error: expected identifier or ‘(’ before ‘typedef’
+  229 | typedef __SIZE_TYPE__ size_t;
+      | ^~~~~~~
+In file included from /usr/include/stdio.h:47:
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:28:43: error: unknown type name ‘size_t’
+   28 |                                           size_t __nbytes);
+      |                                           ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:1:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+  +++ |+#include <stddef.h>
+    1 | /* Copyright (C) 1991-2025 Free Software Foundation, Inc.
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:37:44: error: unknown type name ‘size_t’
+   37 |                                            size_t __nbytes);
+      |                                            ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:37:44: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:57:3: error: unknown type name ‘cookie_read_function_t’; did you mean ‘cookie_seek_function_t’?
+   57 |   cookie_read_function_t *read;         /* Read bytes.  */
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+      |   cookie_seek_function_t
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:58:3: error: unknown type name ‘cookie_write_function_t’; did you mean ‘cookie_close_function_t’?
+   58 |   cookie_write_function_t *write;       /* Write bytes.  */
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+      |   cookie_close_function_t
+/usr/include/stdio.h:317:35: error: unknown type name ‘size_t’
+  317 | extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+      |                                   ^~~~~~
+/usr/include/stdio.h:130:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+  129 | #include <bits/stdio_lim.h>
+  +++ |+#include <stddef.h>
+  130 | 
+/usr/include/stdio.h:323:47: error: unknown type name ‘size_t’
+  323 | extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW
+      |                                               ^~~~~~
+/usr/include/stdio.h:323:47: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:343:34: error: unknown type name ‘size_t’
+  343 |                     int __modes, size_t __n) __THROW __nonnull ((1));
+      |                                  ^~~~~~
+/usr/include/stdio.h:343:34: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:349:24: error: unknown type name ‘size_t’
+  349 |                        size_t __size) __THROW __nonnull ((1));
+      |                        ^~~~~~
+/usr/include/stdio.h:349:24: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:388:44: error: unknown type name ‘size_t’
+  388 | extern int snprintf (char *__restrict __s, size_t __maxlen,
+      |                                            ^~~~~~
+/usr/include/stdio.h:388:44: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:392:45: error: unknown type name ‘size_t’
+  392 | extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+      |                                             ^~~~~~
+/usr/include/stdio.h:392:45: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:690:30: error: unknown type name ‘size_t’
+  690 |                              size_t *__restrict __n, int __delimiter,
+      |                              ^~~~~~
+/usr/include/stdio.h:690:30: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:693:28: error: unknown type name ‘size_t’
+  693 |                            size_t *__restrict __n, int __delimiter,
+      |                            ^~~~~~
+/usr/include/stdio.h:693:28: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:698:27: error: unknown type name ‘size_t’
+  698 |                           size_t *__restrict __n,
+      |                           ^~~~~~
+/usr/include/stdio.h:698:27: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:728:8: error: unknown type name ‘size_t’
+  728 | extern size_t fread (void *__restrict __ptr, size_t __size,
+      |        ^~~~~~
+/usr/include/stdio.h:728:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:728:46: error: unknown type name ‘size_t’
+  728 | extern size_t fread (void *__restrict __ptr, size_t __size,
+      |                                              ^~~~~~
+/usr/include/stdio.h:728:46: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:729:22: error: unknown type name ‘size_t’
+  729 |                      size_t __n, FILE *__restrict __stream) __wur
+      |                      ^~~~~~
+/usr/include/stdio.h:729:22: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:735:8: error: unknown type name ‘size_t’
+  735 | extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+      |        ^~~~~~
+/usr/include/stdio.h:735:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:735:53: error: unknown type name ‘size_t’
+  735 | extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+      |                                                     ^~~~~~
+/usr/include/stdio.h:735:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:736:23: error: unknown type name ‘size_t’
+  736 |                       size_t __n, FILE *__restrict __s) __nonnull((4));
+      |                       ^~~~~~
+/usr/include/stdio.h:736:23: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:756:8: error: unknown type name ‘size_t’
+  756 | extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+      |        ^~~~~~
+/usr/include/stdio.h:756:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:756:55: error: unknown type name ‘size_t’
+  756 | extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+      |                                                       ^~~~~~
+/usr/include/stdio.h:756:55: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:757:31: error: unknown type name ‘size_t’
+  757 |                               size_t __n, FILE *__restrict __stream) __wur
+      |                               ^~~~~~
+/usr/include/stdio.h:757:31: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:759:8: error: unknown type name ‘size_t’
+  759 | extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+      |        ^~~~~~
+/usr/include/stdio.h:759:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:759:62: error: unknown type name ‘size_t’
+  759 | extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+      |                                                              ^~~~~~
+/usr/include/stdio.h:759:62: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdio.h:760:32: error: unknown type name ‘size_t’
+  760 |                                size_t __n, FILE *__restrict __stream)
+      |                                ^~~~~~
+/usr/include/stdio.h:760:32: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+In file included from ../../../../../BENG207_2026/src/main.c:42:
+/usr/include/stdlib.h:98:8: error: unknown type name ‘size_t’
+   98 | extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+      |        ^~~~~~
+/usr/include/stdlib.h:42:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+   41 | # include <bits/waitstatus.h>
+  +++ |+#include <stddef.h>
+   42 | 
+/usr/include/stdlib.h:278:36: error: unknown type name ‘size_t’
+  278 | extern int strfromd (char *__dest, size_t __size, const char *__format,
+      |                                    ^~~~~~
+/usr/include/stdlib.h:278:36: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:282:36: error: unknown type name ‘size_t’
+  282 | extern int strfromf (char *__dest, size_t __size, const char *__format,
+      |                                    ^~~~~~
+/usr/include/stdlib.h:282:36: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:286:36: error: unknown type name ‘size_t’
+  286 | extern int strfroml (char *__dest, size_t __size, const char *__format,
+      |                                    ^~~~~~
+/usr/include/stdlib.h:286:36: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:298:38: error: unknown type name ‘size_t’
+  298 | extern int strfromf32 (char *__dest, size_t __size, const char * __format,
+      |                                      ^~~~~~
+/usr/include/stdlib.h:298:38: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:304:38: error: unknown type name ‘size_t’
+  304 | extern int strfromf64 (char *__dest, size_t __size, const char * __format,
+      |                                      ^~~~~~
+/usr/include/stdlib.h:304:38: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:310:39: error: unknown type name ‘size_t’
+  310 | extern int strfromf128 (char *__dest, size_t __size, const char * __format,
+      |                                       ^~~~~~
+/usr/include/stdlib.h:310:39: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:316:39: error: unknown type name ‘size_t’
+  316 | extern int strfromf32x (char *__dest, size_t __size, const char * __format,
+      |                                       ^~~~~~
+/usr/include/stdlib.h:316:39: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:322:39: error: unknown type name ‘size_t’
+  322 | extern int strfromf64x (char *__dest, size_t __size, const char * __format,
+      |                                       ^~~~~~
+/usr/include/stdlib.h:322:39: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:531:25: error: unknown type name ‘size_t’
+  531 |                         size_t __statelen) __THROW __nonnull ((2));
+      |                         ^~~~~~
+/usr/include/stdlib.h:531:25: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:561:25: error: unknown type name ‘size_t’
+  561 |                         size_t __statelen,
+      |                         ^~~~~~
+/usr/include/stdlib.h:561:25: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:661:42: error: unknown type name ‘size_t’
+  661 | extern void arc4random_buf (void *__buf, size_t __size)
+      |                                          ^~~~~~
+/usr/include/stdlib.h:661:42: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:672:22: error: unknown type name ‘size_t’
+  672 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |                      ^~~~~~
+/usr/include/stdlib.h:672:22: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:675:22: error: unknown type name ‘size_t’
+  675 | extern void *calloc (size_t __nmemb, size_t __size)
+      |                      ^~~~~~
+/usr/include/stdlib.h:675:22: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:675:38: error: unknown type name ‘size_t’
+  675 | extern void *calloc (size_t __nmemb, size_t __size)
+      |                                      ^~~~~~
+/usr/include/stdlib.h:675:38: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:683:36: error: unknown type name ‘size_t’
+  683 | extern void *realloc (void *__ptr, size_t __size)
+      |                                    ^~~~~~
+/usr/include/stdlib.h:683:36: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:695:41: error: unknown type name ‘size_t’
+  695 | extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+      |                                         ^~~~~~
+/usr/include/stdlib.h:695:41: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:695:57: error: unknown type name ‘size_t’
+  695 | extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+      |                                                         ^~~~~~
+/usr/include/stdlib.h:695:57: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:701:41: error: unknown type name ‘size_t’
+  701 | extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+      |                                         ^~~~~~
+/usr/include/stdlib.h:701:41: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:701:57: error: unknown type name ‘size_t’
+  701 | extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+      |                                                         ^~~~~~
+/usr/include/stdlib.h:701:57: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+In file included from /usr/include/stdlib.h:706:
+/usr/include/alloca.h:32:22: error: unknown type name ‘size_t’
+   32 | extern void *alloca (size_t __size) __THROW;
+      |                      ^~~~~~
+/usr/include/alloca.h:25:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+   24 | #include <stddef.h>
+  +++ |+#include <stddef.h>
+   25 | 
+/usr/include/stdlib.h:712:22: error: unknown type name ‘size_t’
+  712 | extern void *valloc (size_t __size) __THROW __attribute_malloc__
+      |                      ^~~~~~
+/usr/include/stdlib.h:712:22: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:718:45: error: unknown type name ‘size_t’
+  718 | extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+      |                                             ^~~~~~
+/usr/include/stdlib.h:718:45: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:718:65: error: unknown type name ‘size_t’
+  718 | extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+      |                                                                 ^~~~~~
+/usr/include/stdlib.h:718:65: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:724:29: error: unknown type name ‘size_t’
+  724 | extern void *aligned_alloc (size_t __alignment, size_t __size)
+      |                             ^~~~~~
+/usr/include/stdlib.h:724:29: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:724:49: error: unknown type name ‘size_t’
+  724 | extern void *aligned_alloc (size_t __alignment, size_t __size)
+      |                                                 ^~~~~~
+/usr/include/stdlib.h:724:49: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:961:23: error: unknown type name ‘size_t’
+  961 |                       size_t __nmemb, size_t __size, __compar_fn_t __compar)
+      |                       ^~~~~~
+/usr/include/stdlib.h:961:23: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:961:39: error: unknown type name ‘size_t’
+  961 |                       size_t __nmemb, size_t __size, __compar_fn_t __compar)
+      |                                       ^~~~~~
+/usr/include/stdlib.h:961:39: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:970:34: error: unknown type name ‘size_t’
+  970 | extern void qsort (void *__base, size_t __nmemb, size_t __size,
+      |                                  ^~~~~~
+/usr/include/stdlib.h:970:34: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:970:50: error: unknown type name ‘size_t’
+  970 | extern void qsort (void *__base, size_t __nmemb, size_t __size,
+      |                                                  ^~~~~~
+/usr/include/stdlib.h:970:50: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:973:36: error: unknown type name ‘size_t’
+  973 | extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
+      |                                    ^~~~~~
+/usr/include/stdlib.h:973:36: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:973:52: error: unknown type name ‘size_t’
+  973 | extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
+      |                                                    ^~~~~~
+/usr/include/stdlib.h:973:52: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1050:20: error: unknown type name ‘size_t’
+ 1050 |                    size_t __len) __THROW __nonnull ((3, 4, 5));
+      |                    ^~~~~~
+/usr/include/stdlib.h:1050:20: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1053:20: error: unknown type name ‘size_t’
+ 1053 |                    size_t __len) __THROW __nonnull ((3, 4, 5));
+      |                    ^~~~~~
+/usr/include/stdlib.h:1053:20: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1057:45: error: unknown type name ‘size_t’
+ 1057 |                     char *__restrict __buf, size_t __len)
+      |                                             ^~~~~~
+/usr/include/stdlib.h:1057:45: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1061:45: error: unknown type name ‘size_t’
+ 1061 |                     char *__restrict __buf, size_t __len)
+      |                                             ^~~~~~
+/usr/include/stdlib.h:1061:45: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1068:36: error: unknown type name ‘size_t’
+ 1068 | extern int mblen (const char *__s, size_t __n) __THROW;
+      |                                    ^~~~~~
+/usr/include/stdlib.h:1068:36: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1072:48: error: unknown type name ‘size_t’
+ 1072 |                    const char *__restrict __s, size_t __n) __THROW;
+      |                                                ^~~~~~
+/usr/include/stdlib.h:1072:48: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1079:8: error: unknown type name ‘size_t’
+ 1079 | extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+      |        ^~~~~~
+/usr/include/stdlib.h:1079:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1080:53: error: unknown type name ‘size_t’
+ 1080 |                         const char *__restrict __s, size_t __n) __THROW
+      |                                                     ^~~~~~
+/usr/include/stdlib.h:1080:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1083:8: error: unknown type name ‘size_t’
+ 1083 | extern size_t wcstombs (char *__restrict __s,
+      |        ^~~~~~
+/usr/include/stdlib.h:1083:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1084:59: error: unknown type name ‘size_t’
+ 1084 |                         const wchar_t *__restrict __pwcs, size_t __n)
+      |                                                           ^~~~~~
+/usr/include/stdlib.h:1084:59: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/stdlib.h:1140:46: error: unknown type name ‘size_t’
+ 1140 | extern int ptsname_r (int __fd, char *__buf, size_t __buflen)
+      |                                              ^~~~~~
+/usr/include/stdlib.h:1140:46: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+In file included from ../../../../../BENG207_2026/src/main.c:45:
+/usr/include/string.h:44:22: error: unknown type name ‘size_t’
+   44 |                      size_t __n) __THROW __nonnull ((1, 2));
+      |                      ^~~~~~
+/usr/include/string.h:34:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+   33 | #include <stddef.h>
+  +++ |+#include <stddef.h>
+   34 | 
+/usr/include/string.h:47:56: error: unknown type name ‘size_t’
+   47 | extern void *memmove (void *__dest, const void *__src, size_t __n)
+      |                                                        ^~~~~~
+/usr/include/string.h:47:56: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:55:32: error: unknown type name ‘size_t’
+   55 |                       int __c, size_t __n)
+      |                                ^~~~~~
+/usr/include/string.h:55:32: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:61:42: error: unknown type name ‘size_t’
+   61 | extern void *memset (void *__s, int __c, size_t __n) __THROW __nonnull ((1));
+      |                                          ^~~~~~
+/usr/include/string.h:61:42: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:64:56: error: unknown type name ‘size_t’
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |                                                        ^~~~~~
+/usr/include/string.h:64:56: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:80:60: error: unknown type name ‘size_t’
+   80 | extern int __memcmpeq (const void *__s1, const void *__s2, size_t __n)
+      |                                                            ^~~~~~
+/usr/include/string.h:80:60: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:107:48: error: unknown type name ‘size_t’
+  107 | extern void *memchr (const void *__s, int __c, size_t __n)
+      |                                                ^~~~~~
+/usr/include/string.h:107:48: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:133:49: error: unknown type name ‘size_t’
+  133 | extern void *memrchr (const void *__s, int __c, size_t __n)
+      |                                                 ^~~~~~
+/usr/include/string.h:133:49: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:145:53: error: unknown type name ‘size_t’
+  145 |                       const char *__restrict __src, size_t __n)
+      |                                                     ^~~~~~
+/usr/include/string.h:145:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:153:23: error: unknown type name ‘size_t’
+  153 |                       size_t __n) __THROW __nonnull ((1, 2));
+      |                       ^~~~~~
+/usr/include/string.h:153:23: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:159:57: error: unknown type name ‘size_t’
+  159 | extern int strncmp (const char *__s1, const char *__s2, size_t __n)
+      |                                                         ^~~~~~
+/usr/include/string.h:159:57: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:166:8: error: unknown type name ‘size_t’
+  166 | extern size_t strxfrm (char *__restrict __dest,
+      |        ^~~~~~
+/usr/include/string.h:166:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:167:54: error: unknown type name ‘size_t’
+  167 |                        const char *__restrict __src, size_t __n)
+      |                                                      ^~~~~~
+/usr/include/string.h:167:54: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:179:8: error: unknown type name ‘size_t’
+  179 | extern size_t strxfrm_l (char *__dest, const char *__src, size_t __n,
+      |        ^~~~~~
+/usr/include/string.h:179:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:179:59: error: unknown type name ‘size_t’
+  179 | extern size_t strxfrm_l (char *__dest, const char *__src, size_t __n,
+      |                                                           ^~~~~~
+/usr/include/string.h:179:59: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:195:45: error: unknown type name ‘size_t’
+  195 | extern char *strndup (const char *__string, size_t __n)
+      |                                             ^~~~~~
+/usr/include/string.h:195:45: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:293:8: error: unknown type name ‘size_t’
+  293 | extern size_t strcspn (const char *__s, const char *__reject)
+      |        ^~~~~~
+/usr/include/string.h:293:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:297:8: error: unknown type name ‘size_t’
+  297 | extern size_t strspn (const char *__s, const char *__accept)
+      |        ^~~~~~
+/usr/include/string.h:297:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:389:46: error: unknown type name ‘size_t’
+  389 | extern void *memmem (const void *__haystack, size_t __haystacklen,
+      |                                              ^~~~~~
+/usr/include/string.h:389:46: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:390:44: error: unknown type name ‘size_t’
+  390 |                      const void *__needle, size_t __needlelen)
+      |                                            ^~~~~~
+/usr/include/string.h:390:44: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:398:55: error: unknown type name ‘size_t’
+  398 |                         const void *__restrict __src, size_t __n)
+      |                                                       ^~~~~~
+/usr/include/string.h:398:55: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:401:53: error: unknown type name ‘size_t’
+  401 |                       const void *__restrict __src, size_t __n)
+      |                                                     ^~~~~~
+/usr/include/string.h:401:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:407:8: error: unknown type name ‘size_t’
+  407 | extern size_t strlen (const char *__s)
+      |        ^~~~~~
+/usr/include/string.h:407:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:413:8: error: unknown type name ‘size_t’
+  413 | extern size_t strnlen (const char *__string, size_t __maxlen)
+      |        ^~~~~~
+/usr/include/string.h:413:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:413:46: error: unknown type name ‘size_t’
+  413 | extern size_t strnlen (const char *__string, size_t __maxlen)
+      |                                              ^~~~~~
+/usr/include/string.h:413:46: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:444:53: error: unknown type name ‘size_t’
+  444 | extern char *strerror_r (int __errnum, char *__buf, size_t __buflen)
+      |                                                     ^~~~~~
+/usr/include/string.h:444:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+In file included from /usr/include/string.h:462:
+/usr/include/strings.h:34:54: error: unknown type name ‘size_t’
+   34 | extern int bcmp (const void *__s1, const void *__s2, size_t __n)
+      |                                                      ^~~~~~
+/usr/include/strings.h:24:1: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+   23 | #include <stddef.h>
+  +++ |+#include <stddef.h>
+   24 | 
+/usr/include/strings.h:38:53: error: unknown type name ‘size_t’
+   38 | extern void bcopy (const void *__src, void *__dest, size_t __n)
+      |                                                     ^~~~~~
+/usr/include/strings.h:38:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/strings.h:42:31: error: unknown type name ‘size_t’
+   42 | extern void bzero (void *__s, size_t __n) __THROW __nonnull ((1));
+      |                               ^~~~~~
+/usr/include/strings.h:42:31: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/strings.h:120:61: error: unknown type name ‘size_t’
+  120 | extern int strncasecmp (const char *__s1, const char *__s2, size_t __n)
+      |                                                             ^~~~~~
+/usr/include/strings.h:120:61: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/strings.h:134:27: error: unknown type name ‘size_t’
+  134 |                           size_t __n, locale_t __loc)
+      |                           ^~~~~~
+/usr/include/strings.h:134:27: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:466:40: error: unknown type name ‘size_t’
+  466 | extern void explicit_bzero (void *__s, size_t __n) __THROW __nonnull ((1))
+      |                                        ^~~~~~
+/usr/include/string.h:466:40: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:497:55: error: unknown type name ‘size_t’
+  497 |                         const char *__restrict __src, size_t __n)
+      |                                                       ^~~~~~
+/usr/include/string.h:497:55: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:500:53: error: unknown type name ‘size_t’
+  500 |                       const char *__restrict __src, size_t __n)
+      |                                                     ^~~~~~
+/usr/include/string.h:500:53: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:506:8: error: unknown type name ‘size_t’
+  506 | extern size_t strlcpy (char *__restrict __dest,
+      |        ^~~~~~
+/usr/include/string.h:506:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:507:54: error: unknown type name ‘size_t’
+  507 |                        const char *__restrict __src, size_t __n)
+      |                                                      ^~~~~~
+/usr/include/string.h:507:54: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:512:8: error: unknown type name ‘size_t’
+  512 | extern size_t strlcat (char *__restrict __dest,
+      |        ^~~~~~
+/usr/include/string.h:512:8: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:513:54: error: unknown type name ‘size_t’
+  513 |                        const char *__restrict __src, size_t __n)
+      |                                                      ^~~~~~
+/usr/include/string.h:513:54: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+/usr/include/string.h:526:34: error: unknown type name ‘size_t’
+  526 | extern void *memfrob (void *__s, size_t __n) __THROW __nonnull ((1))
+      |                                  ^~~~~~
+/usr/include/string.h:526:34: note: ‘size_t’ is defined in header ‘<stddef.h>’; this is probably fixable by adding ‘#include <stddef.h>’
+../../../../../BENG207_2026/src/main.c:58:1: warning: ‘/*’ within comment [-Wcomment]
+   58 | /* ============================================================
+../../../../../BENG207_2026/src/main.c:61:1: warning: ‘/*’ within comment [-Wcomment]
+   61 | /* Anna, please ask Alexi to make sure that we are on the same page!!!/*
+../../../../../BENG207_2026/src/main.c:61:71: warning: ‘/*’ within comment [-Wcomment]
+../../../../../BENG207_2026/src/main.c:64:1: warning: ‘/*’ within comment [-Wcomment]
+   64 | /* Layer 1: LiNbO3 transducer (source) */
+../../../../../BENG207_2026/src/main.c: In function ‘compute_T’:
+../../../../../BENG207_2026/src/main.c:187:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  187 |     double complex denom = Mt.m[0][0]
+      |     ^~~~~~
+../../../../../BENG207_2026/src/main.c: In function ‘output_spectrum’:
+../../../../../BENG207_2026/src/main.c:224:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  224 |     const int Nf = 2000;
+      |     ^~~~~
+../../../../../BENG207_2026/src/main.c:228:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  228 |     double h2_vals[] = {5e-6, 15e-6, 30e-6, 50e-6};
+      |     ^~~~~~
+../../../../../BENG207_2026/src/main.c:238:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  238 |     double E_deg  = 50.0e3;
+      |     ^~~~~~
+../../../../../BENG207_2026/src/main.c: In function ‘output_sensitivity’:
+../../../../../BENG207_2026/src/main.c:275:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  275 |     FILE *fp1 = fopen(fname1, "w");
+      |     ^~~~
+../../../../../BENG207_2026/src/main.c:289:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  289 |     FILE *fp2 = fopen(fname2, "w");
+      |     ^~~~
+../../../../../BENG207_2026/src/main.c: In function ‘output_phase_shift’:
+../../../../../BENG207_2026/src/main.c:318:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  318 |     double complex T_ref = compute_T(f_center, h2_arr[0],
+      |     ^~~~~~
+../../../../../BENG207_2026/src/main.c:334:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  334 |         double node_shift = (phase / (2*M_PI)) * (lambda_w/2) * 1e6;
+      |         ^~~~~~
+../../../../../BENG207_2026/src/main.c: In function ‘output_degradation_evolution’:
+../../../../../BENG207_2026/src/main.c:360:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  360 |     double E2_t[6], eta2_t[6], h2_t[6];
+      |     ^~~~~~
+../../../../../BENG207_2026/src/main.c: In function ‘output_attenuation’:
+../../../../../BENG207_2026/src/main.c:398:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  398 |     double eta_vals[] = {0.5, 2.0, 10.0, 50.0};
+      |     ^~~~~~
+../../../../../BENG207_2026/src/main.c: At top level:
+../../../../../BENG207_2026/src/main.c:103:15: warning: ‘mat_eye’ defined but not used [-Wunused-function]
+  103 | static Mat2x2 mat_eye(void)
+      |               ^~~~~~~
+[8/9] Compiling C object src/beng207_2026.p/beng207_2026-application.c.o
+ninja: build stopped: subcommand failed.
+
