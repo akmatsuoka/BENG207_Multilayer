@@ -1,5 +1,7 @@
 # beng207_Multilayer_model
 
+## Please review all of the variables/parameters.
+
 Fig 1 — Transmission spectrum |T(f)| from 15–25 MHz for four couplant thicknesses (5, 15, 30, 50 µm), fresh vs degraded US gel
 
 Fig 2a/2b — Sensitivity maps |T| vs (h₂, η₂) at fixed E₂, and |T| vs (h₂, E₂) at fixed η₂ — two heatmaps showing which couplant parameter matters more or less
