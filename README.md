@@ -8,15 +8,14 @@ License: Public domain
 Further discussion: TBD
 </pre>
 
-Instruction to BENG207 students
-Please review all of the variables/parameters.
+Instruction to BENG207 students: Please review all of the variables/parameters.
 
 ---------------
-
+## Table of Content
 * [Abstract](#Abstract)
-* [Background and Significance](#shopping-list)
-* [Software Installation](#software-installation)
-  * [Verifying your download](#verifying-your-download)
+* [Background and Significance](#Background and Significance)
+* [Software Installation](#Background and Signifiance)
+* [Verifying your download](#verifying-your-download)
 * [Enclosure Designs](#enclosure-designs)
 * [SeedQR Printable Templates](#seedqr-printable-templates)
 * [Build from Source](#build-from-source)
@@ -24,7 +23,6 @@ Please review all of the variables/parameters.
 
 
 ---------------
-
 ## Abstract 
 TBW
 
@@ -35,11 +33,29 @@ The initial studies were conducted using a commercially available microfluidic p
 
 Building upon these findings, we then initiated a second-generation design effort in collaboration with the BENG207 (2025) student cohort between January and May 2025. The revised microfluidic architecture was engineered to better approximate key aspects of the inner ear environment, including spatial confinement, gradient stability, and controlled mass transport dynamics. This redesign aims to support sustained neurotrophic signaling and improved structural integration in subsequent biohybrid implant prototypes. The initial results are encourging and Keristen Russ is now finalizing the experiments for the publication. 
 
-The ratialnlae of the third gneneration of our microfluidic device was deisgned bvy AJM and James Friend, Ph.D. (Previously at UCSD now the chair of Wahshington University St. Louis) in Fall 2025 in that we now incoporate surface acoustic wave technology to generate long-lasting BDNF concnetration gradient. Based on Jia et al., 2025, The transfer-matrix (or transmission-line) method for multilayer acoustics is well-established. It seems that 
-swapping in a complex wave speed from the Kelvin-Voigt model is straightforward. Frequency-dependent attenuation α(ω) ∝ ω²η/(2ρc³) at leading order, which means their 50 MHz system will be far more sensitive to couplant viscoelasticity than lower-frequency devices — that's I think is a testable condtionn. According to Alexi, we are using way lower frequency (somewhere around 1 MHz, please ask him). I can think of three failure modes I can list (increased attenuation, phase drift, impedance mismatch change) are genuinely distinct and could in principle be disentangled experimentally by tracking node positions versus overall force amplitude over time.
+The ratialnlae of the third gneneration of our microfluidic device was deisgned bvy AJM and James Friend, Ph.D. (Previously at UCSD now the chair of Wahshington University St. Louis) in Fall 2025 in that we now incoporate surface acoustic wave technology to generate long-lasting BDNF concnetration gradient. Based on Jia et al., 2025, The transfer-matrix (or transmission-line) method for multilayer acoustics is well-established. It seems that swapping in a complex wave speed from the Kelvin-Voigt model is straightforward. Frequency-dependent attenuation α(ω) ∝ ω²η/(2ρc³) at leading order, which means their 50 MHz system will be far more sensitive to couplant viscoelasticity than lower-frequency devices — that's I think is a testable condtionn. According to Alexi, we are using much lower frequency (somewhere around 1 MHz (800kHz), please ask him). I can think of three failure modes I can list (increased attenuation, phase drift, impedance mismatch change) are genuinely distinct and could in principle be disentangled experimentally by tracking node positions vs. overall force amplitude over time.
 
+Jia et al. clearly stated in the manuscript that fluid couplants (e.g., US gels) degrade via evaporation and that this motivates UV-epoxy solid bonding (Section I in Jia et al., 2025; citing references [40, 47, and 48]). As such, our model could provide the quantitative framework — how much thickness change or modulus drift is tolerable before the resonance condition in the Si substrate (which they showed is critical via the BAW resonance analysis) falls apart. The fact that their system relies on a narrow-band interplay between SAW cavity resonances and BAW modes in the silicon (Fig. 5 in the manuscript) means even small phase shifts in the couplant could detune the system significantly.
 
-## 
+The major difference between this paper and our experimental steup is the thickness of the couplant layer. In JIa et al.'s device is < 1 um (UV-cured Photo-curable resin). o for solid-bonded systems the effect may be small. Therefore, this BENG207 multilayert model is most relevant for gel/water/grease-coupled configurations where the layer is thicker (tens of µm, which I think is the case based on conversaation with Alexi).
+
+As one can easily concenptulize this, but a single KV element gives attenuation scaling as ω², which may not capture all couplant behaviors. If the gel dehydrates (I don't even know how fast though), we are really dealing with a time-varying thickness and a transition from viscous liquid toward a stiffer solid — a more complete model might need E(t), η(t), and h(t) all evolving. Therefore, we start with quasi-static parameter sweeps through the transfer matrix and show sensitivity maps.
+Experimentally validating the model would require either measuring the couplant properties independently (e.g., with a separate ultrasonic characterization setup) or inferring them from the pattern decay dynamics, which introduces another reverse engineering challeng so to speak.
+
+## Deliverable
+Here we compute transmission coefficient T(ω) through the stack (LiNbO3 - couplant (US gels) - coverglass - water) as a function of couplant thickness, E, and η. Then show how the resonance peaks in T(ω) shift and broaden as you vary these parameters over physically realistic ranges for gel dehydration. Overlay that with the experimental acoustophoresis spectrum shape from Fig. 3(c) or Fig. 5 to show which parameter changes are most consistent with observed degradation (Jia et al., 2025).
+
+## BENG207 Multilayer model (Analytical model)
+### Transducer (source side: bottom layer)
+The paper uses LiNbO₃ at ~50 MHz and we are also using LiNbO3 although ALexi inidicated that we may have to use other peizo (I do not know much about this but Alexi knows). For the transfer matrix we just need the acoustic impedance on the source side. A tis point I'll use Z₁ ≈ 34 MRayl (LiNbO₃ longitudinal). Please confirm this with Alexi because we may have to use differnt acoustic impedance (MRayl).
+
+### Couplant layer (US gels layer)
+This is the layer we're modeling as Kelvin–Voigt. We need more accurate information. 
+
+What exact couplant?--- Ultrasound gel, water, silicone grease, UV epoxy?
+Approximate thickness? For gel/water coupling this is typically 5–50 µm; for epoxy maybe 1–5 µm
+If you don't know, I'll set up a sweep over thickness h₂ = 1–50 µm
+
 
 ## Output FIgures: Captions
 Fig 1 — Transmission spectrum |T(f)| from 15–25 MHz for four couplant thicknesses (5, 15, 30, 50 µm), fresh vs degraded US gel
