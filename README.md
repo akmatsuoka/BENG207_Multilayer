@@ -1,7 +1,22 @@
-# beng207_Multilayer_model
+<pre> 
+Title: BENG207_Multilayer_model
+Author: BENG207 students (Instructor: Akihiro J. Matsuoka, M.D., D.M.Sc., Ph.D., FACS, Co-instructor: James Friend, Ph.D.)
+Course: BENG207 Winter/Spring Semester (2026)
+Status: Draft
+Type: Analytical model
+License: Public domain
+Further discussion: TBD
+</pre>
 
 ## Please review all of the variables/parameters.
 
+==Abstract=
+TBW
+
+==Copyright=
+This code is licended under the 
+
+==Output FIgures: Captions==
 Fig 1 — Transmission spectrum |T(f)| from 15–25 MHz for four couplant thicknesses (5, 15, 30, 50 µm), fresh vs degraded US gel
 
 Fig 2a/2b — Sensitivity maps |T| vs (h₂, η₂) at fixed E₂, and |T| vs (h₂, E₂) at fixed η₂ — two heatmaps showing which couplant parameter matters more or less
