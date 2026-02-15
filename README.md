@@ -8,15 +8,38 @@ License: Public domain
 Further discussion: TBD
 </pre>
 
-
-Instruction to BENG207 students==
+Instruction to BENG207 students
 Please review all of the variables/parameters.
+
+---------------
+
+* [Abstract](#Abstract)
+* [Background and Significance](#shopping-list)
+* [Software Installation](#software-installation)
+  * [Verifying your download](#verifying-your-download)
+* [Enclosure Designs](#enclosure-designs)
+* [SeedQR Printable Templates](#seedqr-printable-templates)
+* [Build from Source](#build-from-source)
+* [Developer Local Build Instructions](#developer-local-build-instructions)
+
+
+---------------
 
 ## Abstract 
 TBW
 
+## Background and Significance
+Our most recent iteration of the biohybrid cochlear implant, designed by A.J.M, resulted in fabrication of multiple prototype devices for feasibility testing. These experiments revealed a critical limitation in our prior approach to generating a static brain-derived neurotrophic factor (BDNF) concentration gradient. Although the initial gradient was sufficient to support neurite extension from human iPSC-derived otic neuronal progenitors and promote connectivity toward endogenous spiral ganglion neurons, the gradient was not temporally stable. By approximately day 7 in culture, the BDNF distribution became uniform within the microchannel, indicating dissipation of the intended concentration profile (Nella, et al., 2024).
 
-## Rationale
+The initial studies were conducted using a commercially available microfluidic platform (Zona), which was not designed to replicate the structural or biochemical microenvironment of the inner ear. Nevertheless, these experiments established proof-of-concept feasibility and provided a quantitative foundation for further device optimization.
+
+Building upon these findings, we then initiated a second-generation design effort in collaboration with the BENG207 (2025) student cohort between January and May 2025. The revised microfluidic architecture was engineered to better approximate key aspects of the inner ear environment, including spatial confinement, gradient stability, and controlled mass transport dynamics. This redesign aims to support sustained neurotrophic signaling and improved structural integration in subsequent biohybrid implant prototypes. The initial results are encourging and Keristen Russ is now finalizing the experiments for the publication. 
+
+The ratialnlae of the third gneneration of our microfluidic device was deisgned bvy AJM and James Friend, Ph.D. (Previously at UCSD now the chair of Wahshington University St. Louis) in Fall 2025 in that we now incoporate surface acoustic wave technology to generate long-lasting BDNF concnetration gradient. Based on Jia et al., 2025, The transfer-matrix (or transmission-line) method for multilayer acoustics is well-established. It seems that 
+swapping in a complex wave speed from the Kelvin-Voigt model is straightforward. Frequency-dependent attenuation α(ω) ∝ ω²η/(2ρc³) at leading order, which means their 50 MHz system will be far more sensitive to couplant viscoelasticity than lower-frequency devices — that's I think is a testable condtionn. According to Alexi, we are using way lower frequency (somewhere around 1 MHz, please ask him). I can think of three failure modes I can list (increased attenuation, phase drift, impedance mismatch change) are genuinely distinct and could in principle be disentangled experimentally by tracking node positions versus overall force amplitude over time.
+
+
+## 
 
 ## Output FIgures: Captions
 Fig 1 — Transmission spectrum |T(f)| from 15–25 MHz for four couplant thicknesses (5, 15, 30, 50 µm), fresh vs degraded US gel
