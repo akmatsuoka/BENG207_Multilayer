@@ -8,11 +8,12 @@
  *   2. Ultrasound gel couplant (Kelvin-Voigt: E* = E + iωη)
  *   3. Borosilicate glass superstrate AKA a slide glass (e.g., 1 mm)
  *   4. LiNbO3 coverslip AKA a cover glass (e.g., 150 um)
+ *   5. Water fluid channel (terminating half-space)
  *
- * see README file for detail (coming up soon)
+ * see README file for detail
  *
  *
- * Compile:  gcc -std=c99 -O2 -o main.c -lm
+ * Compile:  gcc -std=c99 -O2 -o tm_model main.c -lm
  * Run:      ./tm_model
  */
 
@@ -556,7 +557,7 @@ static void output_design_optimization(void)
 {
     char fname[256];
     FILE *fp;
-    double f_targets[] = {8e5, 9e5, 1e6, 2e6, 5e6, 10e6, 20e6};
+    double f_targets[] = {741e3, 8e5, 9e5, 1e6, 2e6, 5e6, 10e6, 20e6};
   /*Please change these f_targets as you wish*/
 
     int Ntarg = 8;
@@ -583,7 +584,10 @@ static void output_design_optimization(void)
         double T_best = 0.0;
         double h2_best = 0, h3_best = 0, h4_best = 0;
 
-        printf("  Optimizing f = %.0f MHz ... ", freq/1e6);
+        if (freq >= 1e6)
+            printf("  Optimizing f = %.0f MHz ... ", freq/1e6);
+        else
+            printf("  Optimizing f = %.0f kHz ... ", freq/1e3);
         fflush(stdout);
 
         for (i4 = 0; i4 < Nh4; i4++) {
