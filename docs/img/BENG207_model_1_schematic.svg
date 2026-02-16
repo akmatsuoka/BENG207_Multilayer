@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 900 461.8"
+   style="enable-background:new 0 0 900 461.8;"
+   xml:space="preserve"
+   sodipodi:docname="BENG207_model_1_schematic.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:export-filename="BENG207_model_1_schematic.jpg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs50" /><sodipodi:namedview
+   id="namedview50"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="3.5923969"
+   inkscape:cx="286.57747"
+   inkscape:cy="94.226782"
+   inkscape:window-width="1920"
+   inkscape:window-height="1080"
+   inkscape:window-x="26"
+   inkscape:window-y="23"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:none;}
+	.st1{opacity:0.25;fill:none;stroke:#2471A3;stroke-width:0.8;enable-background:new    ;}
+	.st2{opacity:0.3;fill:#C0392B;enable-background:new    ;}
+	.st3{opacity:0.4;fill:none;stroke:#7D6608;stroke-width:1.5;enable-background:new    ;}
+	.st4{fill:#1A1A1A;}
+	.st5{font-family:'Helvetica';}
+	.st6{font-size:27.9898px;}
+	.st7{fill:#666666;}
+	.st8{font-size:23.645px;}
+	.st9{fill:#D6EAF8;stroke:#2471A3;stroke-width:2;}
+	.st10{fill:url(#SVGID_4_);}
+	.st11{fill:#1A5276;}
+	.st12{font-size:29.3511px;}
+	.st13{font-size:20.3229px;}
+	.st14{fill:#555555;}
+	.st15{font-size:28.006px;}
+	.st16{font-size:21.2339px;}
+	.st17{opacity:0.3;fill:#2471A3;stroke:#1A5276;enable-background:new    ;}
+	.st18{fill:none;stroke:#333333;stroke-width:2.5;stroke-dasharray:6,3;}
+	.st19{fill:#333333;}
+	.st20{font-size:21.1326px;}
+	.st21{font-family:'KozGoPr6N-Regular-83pv-RKSJ-H';}
+	.st22{fill:#D5E8D4;stroke:#27AE60;stroke-width:2;}
+	.st23{fill:#1E7E34;}
+	.st24{font-size:26.7714px;}
+	.st25{font-size:19.9997px;}
+	.st26{font-size:20.8388px;}
+	.st27{font-size:21.7977px;}
+	.st28{fill:#FADBD8;stroke:#C0392B;stroke-width:2.5;}
+	.st29{fill:url(#SVGID_5_);}
+	.st30{fill:none;stroke:#C0392B;stroke-dasharray:4,2;}
+	.st31{fill:#922B21;}
+	.st32{font-size:27.3596px;}
+	.st33{font-size:31.9212px;}
+	.st34{font-size:23.1944px;}
+	.st35{font-size:19.7626px;}
+	.st36{font-size:19.7683px;}
+	.st37{font-size:21.6985px;}
+	.st38{fill:#F9E79F;stroke:#B7950B;stroke-width:2;}
+	.st39{fill:url(#SVGID_6_);}
+	.st40{fill:#7D6608;}
+	.st41{font-size:26.4118px;}
+	.st42{font-size:31.9372px;}
+	.st43{font-size:24.4081px;}
+	.st44{font-size:20.8383px;}
+	.st45{fill:#555555;enable-background:new    ;}
+	.st46{fill:#B7950B;}
+	.st47{font-size:23.257px;}
+	.st48{fill:#B7950B;enable-background:new    ;}
+	.st49{fill:#C0392B;}
+	.st50{font-size:17.2587px;}
+	.st51{font-size:18.3539px;}
+	.st52{fill:#C0392B;enable-background:new    ;}
+	.st53{fill:#333333;enable-background:new    ;}
+	.st54{fill:#2471A3;}
+	.st55{font-size:22.3057px;}
+	.st56{fill:#2471A3;enable-background:new    ;}
+</style>
+<pattern
+   y="620"
+   width="20"
+   height="20"
+   patternUnits="userSpaceOnUse"
+   id="SVGID_1_"
+   viewBox="0.3 -20 20 20"
+   style="overflow:visible;">
+	<g
+   id="g3">
+		<rect
+   x="0.3"
+   y="-20"
+   class="st0"
+   width="20"
+   height="20"
+   id="rect1" />
+		<g
+   id="g2">
+			<rect
+   x="0.3"
+   y="-20"
+   class="st0"
+   width="20"
+   height="20"
+   id="rect2" />
+			<path
+   class="st1"
+   d="M0.3-10c3.3-3.3,6.7-3.3,10,0s6.7,3.3,10,0"
+   id="path2" />
+		</g>
+	</g>
+</pattern>
+<pattern
+   y="620"
+   width="10"
+   height="10"
+   patternUnits="userSpaceOnUse"
+   id="SVGID_2_"
+   viewBox="0 -10 10 10"
+   style="overflow:visible;">
+	<g
+   id="g5">
+		<rect
+   y="-10"
+   class="st0"
+   width="10"
+   height="10"
+   id="rect3" />
+		<g
+   id="g4">
+			<rect
+   y="-10"
+   class="st0"
+   width="10"
+   height="10"
+   id="rect4" />
+			<circle
+   class="st2"
+   cx="5"
+   cy="-5"
+   r="1.5"
+   id="circle4" />
+		</g>
+	</g>
+</pattern>
+<pattern
+   y="620"
+   width="8"
+   height="8"
+   patternUnits="userSpaceOnUse"
+   id="SVGID_3_"
+   viewBox="0.8 -8 8 8"
+   style="overflow:visible;">
+	<g
+   id="g7">
+		<rect
+   x="0.8"
+   y="-8"
+   class="st0"
+   width="8"
+   height="8"
+   id="rect5" />
+		<g
+   id="g6">
+			<rect
+   x="0.8"
+   y="-8"
+   class="st0"
+   width="8"
+   height="8"
+   id="rect6" />
+			<line
+   class="st3"
+   x1="0.8"
+   y1="-8"
+   x2="0.8"
+   y2="0"
+   id="line6" />
+		</g>
+	</g>
+</pattern>
+<text
+   transform="matrix(1 0 0 1 164.6735 35.5773)"
+   class="st4 st5 st6"
+   id="text7">Multilayer Acoustic Transfer-Matrix Model</text>
+<text
+   transform="matrix(1 0 0 1 253.5479 72.0101)"
+   class="st7 st5 st8"
+   id="text8">Kelvin–Voigt viscoelastic couplant layer</text>
+<path
+   class="st9"
+   d="M203,90h494c1.7,0,3,1.3,3,3v74c0,1.7-1.3,3-3,3H203c-1.7,0-3-1.3-3-3V93C200,91.3,201.3,90,203,90z"
+   id="path8" />
+<pattern
+   id="SVGID_4_"
+   xlink:href="#SVGID_1_"
+   patternTransform="matrix(1 0 0 1 -32.3 16404.457)">
+</pattern>
+<path
+   class="st10"
+   d="M203,90h494c1.7,0,3,1.3,3,3v74c0,1.7-1.3,3-3,3H203c-1.7,0-3-1.3-3-3V93C200,91.3,201.3,90,203,90z"
+   id="path9" />
+<text
+   transform="matrix(1 0 0 1 281.3276 120.9509)"
+   class="st11 st5 st12"
+   id="text9">Layer 4: Fluid Channel</text>
+<text
+   transform="matrix(1 0 0 1 278.438 154.1989)"
+   class="st11 st5 st13"
+   id="text10">(water, ρ₀ = 1000 kg/m³, c₀ = 1483 m/s)</text>
+<text
+   transform="matrix(1 0 0 1 98.599 115.4513)"
+   class="st14 st5 st15"
+   id="text11">ρ₀ , c₀</text>
+<text
+   transform="matrix(1 0 0 1 91.3657 146.9699)"
+   class="st14 st5 st16"
+   id="text12">Z₀ , depth</text>
+
+
+
+<line
+   class="st18"
+   x1="200"
+   y1="170"
+   x2="700"
+   y2="170"
+   id="line14" />
+<text
+   transform="matrix(1 0 0 1 720 171.9035)"
+   class="st19 st5 st20"
+   id="text14">Interface </text>
+<text
+   transform="matrix(1 0 0 1 825 171.9035)"
+   class="st19 st21 st20"
+   id="text15">③</text>
+<text
+   transform="matrix(1 0 0 1 846.2 171.9035)"
+   class="st19 st5 st20"
+   id="text16">–</text>
+<text
+   transform="matrix(1 0 0 1 861 171.9035)"
+   class="st19 st21 st20"
+   id="text17">④</text>
+<path
+   class="st22"
+   d="M203,170h494c1.7,0,3,1.3,3,3v74c0,1.7-1.3,3-3,3H203c-1.7,0-3-1.3-3-3v-74C200,171.3,201.3,170,203,170z"
+   id="path17" />
+<text
+   transform="matrix(1 0 0 1 275.7453 201.7331)"
+   class="st23 st5 st24"
+   id="text18">Layer 3: Glass Superstrate</text>
+<text
+   transform="matrix(1 0 0 1 280.1637 227.6341)"
+   class="st23 st5 st25"
+   id="text19">(borosilicate / fused silica / soda-lime)</text>
+<text
+   transform="matrix(1 0 0 1 97.599 195.4513)"
+   class="st14 st5 st15"
+   id="text20">ρ₃ , c₃</text>
+<text
+   transform="matrix(1 0 0 1 106.8256 226.6354)"
+   class="st14 st5 st26"
+   id="text21">Z₃ , h₃</text>
+<line
+   class="st18"
+   x1="200"
+   y1="250"
+   x2="700"
+   y2="250"
+   id="line21" />
+<text
+   transform="matrix(1 0 0 1 720 251.6779)"
+   class="st19 st5 st27"
+   id="text22">Interface </text>
+<text
+   transform="matrix(1 0 0 1 828.3 251.6779)"
+   class="st19 st21 st27"
+   id="text23">②</text>
+<text
+   transform="matrix(1 0 0 1 850.1 251.6779)"
+   class="st19 st5 st27"
+   id="text24">–</text>
+<text
+   transform="matrix(1 0 0 1 865.5 251.6779)"
+   class="st19 st21 st27"
+   id="text25">③</text>
+<path
+   class="st28"
+   d="M203,250h494c1.7,0,3,1.3,3,3v94c0,1.7-1.3,3-3,3H203c-1.7,0-3-1.3-3-3v-94C200,251.3,201.3,250,203,250z"
+   id="path25" /><text
+   class="st23 st5 st25"
+   id="text19-6"
+   style="font-size:19.9997px;font-family:Helvetica;fill:#922b21;fill-opacity:1"
+   x="286.54004"
+   y="319.6398"><tspan
+     style="fill:#922b21;fill-opacity:1"
+     id="tspan50">(US gels/ Silicone grease/ UV epoxy)</tspan></text><text
+   class="st23 st5 st25"
+   id="text19-6-4"
+   style="font-size:19.9997px;font-family:Helvetica;fill:#922b21;fill-opacity:1"
+   x="289.54004"
+   y="403.81976"><tspan
+     style="fill:#922b21;fill-opacity:1"
+     id="tspan50-5">(US gels/ Silicone grease/ UV epoxy)</tspan></text>
+<pattern
+   id="SVGID_5_"
+   xlink:href="#SVGID_2_"
+   patternTransform="matrix(1 0 0 1 -12 16394.457)">
+</pattern>
+
+<path
+   class="st30"
+   d="M201,246h498c2.8,0,5,2.2,5,5v98c0,2.8-2.2,5-5,5H201c-2.8,0-5-2.2-5-5v-98C196,248.2,198.2,246,201,246z"
+   id="path27" />
+<text
+   class="st31 st5 st32"
+   id="text27"
+   x="249"
+   y="284.2121">Layer 2: Couplant (Kelvin–Voigt)</text>
+
+<text
+   transform="matrix(1 0 0 1 74.0005 274.9094)"
+   class="st31 st5 st34"
+   id="text29">ρ₂ , E₂ , η₂</text>
+<text
+   transform="matrix(1 0 0 1 62.043 303.7233)"
+   class="st31 st5 st35"
+   id="text30">h₂ (thickness)</text>
+<text
+   transform="matrix(1 0 0 1 61.0009 332.9494)"
+   class="st31 st5 st36"
+   id="text31">time-varying</text>
+<line
+   class="st18"
+   x1="200"
+   y1="350"
+   x2="700"
+   y2="350"
+   id="line31" />
+<text
+   transform="matrix(1 0 0 1 720 351.7121)"
+   class="st19 st5 st37"
+   id="text32">Interface </text>
+<text
+   transform="matrix(1 0 0 1 827.9 351.7121)"
+   class="st19 st21 st37"
+   id="text33">①</text>
+<text
+   transform="matrix(1 0 0 1 849.6 351.7121)"
+   class="st19 st5 st37"
+   id="text34">–</text>
+<text
+   transform="matrix(1 0 0 1 864.8 351.7121)"
+   class="st19 st21 st37"
+   id="text35">②</text>
+<path
+   class="st38"
+   d="m 203.55673,350.55673 h 494 c 1.7,0 3,1.3 3,3 v 74 c 0,1.7 -1.3,3 -3,3 h -494 c -1.7,0 -3,-1.3 -3,-3 v -74 c 0,-1.7 1.3,-3 3,-3 z"
+   id="path35" />
+<pattern
+   id="SVGID_6_"
+   xlink:href="#SVGID_3_"
+   patternTransform="matrix(0.7071,0.7071,-0.7071,0.7071,-4625.169,11410.651)">
+</pattern>
+<path
+   class="st39"
+   d="m 229.72311,399.82746 h 494 c 1.7,0 3,1.3 3,3 v 74 c 0,1.7 -1.3,3 -3,3 h -494 c -1.7,0 -3,-1.3 -3,-3 v -74 c 0,-1.7 1.3,-3 3,-3 z"
+   id="path36" />
+<text
+   transform="matrix(1 0 0 1 313.9771 379.9274)"
+   class="st40 st5 st41"
+   id="text36">Layer 1: Transducer</text><text
+   class="st40 st5 st41"
+   id="text36-0"
+   style="font-size:26.4118px;font-family:Helvetica;fill:#7d6608"
+   x="317.10016"
+   y="407.77304" />
+
+<text
+   transform="matrix(1 0 0 1 102.5399 378.5141)"
+   class="st14 st5 st43"
+   id="text38">ρ₁ , c₁</text>
+<text
+   transform="matrix(1 0 0 1 99.9232 408.9348)"
+   class="st14 st5 st44"
+   id="text39">Z₁ = ρ₁c₁</text>
+<path
+   class="st45"
+   d="M0,0"
+   id="path39" />
+<polygon
+   class="st19"
+   points="751.2,388.5 760,363.5 768.8,388.5 "
+   id="polygon39" />
+<path
+   marker-end="url(#arrow)"
+   class="st19"
+   d="M760,355"
+   id="path40" />
+<text
+   transform="matrix(1 0 0 1 720.6758 413.5861)"
+   class="st46 st5 st47"
+   id="text40">Incident</text>
+<path
+   class="st48"
+   d="M0,0"
+   id="path41" />
+<polygon
+   class="st49"
+   points="751.2,295.5 760,270.5 768.8,295.5 "
+   id="polygon41" />
+<path
+   marker-end="url(#arrow-red)"
+   class="st49"
+   d="M760,260"
+   id="path42" />
+<text
+   transform="matrix(1 0 0 1 775.125 293.1022)"
+   class="st49 st5 st50"
+   id="text42">Attenuated</text>
+<text
+   transform="matrix(1 0 0 1 747.0947 313.7443)"
+   class="st49 st5 st51"
+   id="text43">+ phase shifted</text>
+<path
+   class="st52"
+   d="M0,0"
+   id="path43" />
+<polygon
+   class="st19"
+   points="751.2,212.5 760,187.5 768.8,212.5 "
+   id="polygon43" />
+<path
+   marker-end="url(#arrow)"
+   class="st19"
+   d="M760,178"
+   id="path44" />
+<path
+   class="st53"
+   d="M0,0"
+   id="path45" />
+<polygon
+   class="st54"
+   points="751.2,122.5 760,97.5 768.8,122.5 "
+   id="polygon45" />
+<path
+   marker-end="url(#arrow-blue)"
+   class="st54"
+   d="M760,100"
+   id="path46" />
+<text
+   transform="matrix(1 0 0 1 780.0684 120)"
+   class="st54 st5 st55"
+   id="text46">T(ω)</text>
+<path
+   class="st56"
+   d="M0,0"
+   id="path47" />
+<polygon
+   class="st49"
+   points="195.2,326.5 190,341.5 184.8,326.5 "
+   id="polygon47" />
+<path
+   marker-end="url(#arrow-red)"
+   class="st49"
+   d="M190,340"
+   id="path48" />
+<path
+   class="st52"
+   d="M0,0"
+   id="path49" />
+<polygon
+   class="st19"
+   points="195.2,228.5 190,243.5 184.8,228.5 "
+   id="polygon49" />
+<path
+   marker-end="url(#arrow)"
+   class="st19"
+   d="M190,242"
+   id="path50" />
+<text
+   xml:space="preserve"
+   style="font-size:17.8277px;writing-mode:lr-tb;direction:ltr;fill:#7d6608;fill-opacity:1;stroke-width:1.48564"
+   x="354.29688"
+   y="384.39014"
+   id="text51"
+   transform="scale(0.95482575,1.0473115)"><tspan
+     sodipodi:role="line"
+     id="tspan51"
+     x="354.29688"
+     y="384.39014"
+     style="stroke-width:1.48564">(LiNbO3 or other PZTs)</tspan></text></svg>
