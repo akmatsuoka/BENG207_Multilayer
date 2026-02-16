@@ -65,6 +65,8 @@ This is the layer we're modeling as Kelvin–Voigt. We need more accurate inform
 
 ![Multilayered Biohybrid Cochlear Implant Model](docs/img/BENG207_model_1_schematic.jpg)
 
+If you want to modify this figure, a vector version can be found in docs/img.
+
 Figure 1: The four-layer stack reads bottom to top: transducer → couplant (the Kelvin–Voigt layer in red, the one we're modeling) → glass superstrate → fluid channel. The key parameters for each layer are labeled on the left, wave propagation and reflections on the sides, and the transfer-matrix equations at the bottom.
 
 The red "degradation" badge highlights that E₂, η₂, and h₂ are the time-varying quantities we'll sweep to predict pattern decay.
