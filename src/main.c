@@ -40,7 +40,10 @@
  *  ====Other useful tips===================================================
  * Please do your work either on your Windows laptop or on our Leichtag Linus 
  * server. 
- * Please do not change pointer codes.
+ * Please do not modify a code on Github. If you do so,  you would be entering 
+ * a world of "Pain."
+ * Please do not change pointer codes. If you do so,  you would be entering 
+ * a world of "Pain."
  *  =========================================================================
  */
 
