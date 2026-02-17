@@ -8,7 +8,11 @@ License: Public domain
 Further discussion: TBD
 </pre>
 
-Instruction to BENG207 students: Please review all of the variables/parameters.
+Instruction to BENG207 students: Please review all of the variables/parameters for your current devices.
+
+## Documentation
+
+- [Student GitHub Workflow](STUDENT_WORKFLOW.md)
 
 ---
 
