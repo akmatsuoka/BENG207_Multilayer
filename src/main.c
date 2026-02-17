@@ -18,7 +18,7 @@
  * Compile (Linux/Mac):
  *   gcc -std=c99 -O2 -o tm_model main.c -lm
  *
- * Compile (Windows MSVC — Developer Command Prompt):
+ * Compile (Windows MSVC — Developer Command Prompt is needed):
  *   cl /O2 main.c /link /out:tm_model.exe
  *
  * Compile (Windows MinGW):
@@ -28,7 +28,23 @@
  *   ./tm_model          (Linux/Mac)
  *   tm_model.exe        (Windows)
  *   CSVs appear in PLOT_CSV/ subfolder.
+ * 
+ * Github sync instruction
+ * 1. Go to your local directory (e.g., /Projects/BENG207_1/)
+ * 2. git int
+ * 3. git add .
+ * 4. git commit -m "Comment.."
+ * 5. git branch -M main
+ * 6. git push -u origin main
+ * 
+ *  ====Other useful tips===================================================
+ * Please do your work either on your Windows laptop or on our Leichtag Linus 
+ * server. 
+ * Please do not change pointer codes.
+ *  =========================================================================
  */
+
+ * 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -36,7 +52,7 @@
 #include <string.h>
 
 /* ============================================================
- * Platform-specific directory creation
+ * Platform-specific directory creation to avoid the "WINDOWS" issues
  * ============================================================ */
 #include <errno.h>
 #ifdef _WIN32
@@ -51,6 +67,7 @@
  * Complex number helpers (no <complex.h> needed — MSVC lacks it)
  *
  * We represent complex numbers as a struct with .re and .im
+ * Without these, we would be suffering a lot!!
  * ============================================================ */
 
 typedef struct { double re; double im; } Cpx;
