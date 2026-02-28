@@ -10,9 +10,9 @@ Further discussion: TBD
 
 Instruction to BENG207 students: Please review all of the variables/parameters for your current devices.
 
-## Documentation
 
-- [Student GitHub Workflow](STUDENT_WORKFLOW.md)
+## Documentation
+- [Student GitHub Workflow](GitHub_Upload_Instruction_BENG207.md)
 
 ---
 
